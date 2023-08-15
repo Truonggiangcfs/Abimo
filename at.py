@@ -18,7 +18,7 @@ num_threads = int(sys.argv[3])
 num_requests = num_processes * num_threads
 
 # Đọc danh sách proxy từ file proxy.txt
-with open("proxy.txt", "r") as file:
+with open("Proxy.txt", "r") as file:
     proxies = file.readlines()
 
 # Đọc danh sách user-agent từ file ua.txt
