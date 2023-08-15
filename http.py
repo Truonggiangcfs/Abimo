@@ -36,7 +36,7 @@ num_threads = input_num_threads()
 num_requests = num_processes * num_threads
 
 # Đọc danh sách proxy từ file proxy.txt
-proxies = read_file("proxy.txt")
+proxies = read_file("Proxy.txt")
 
 # Đọc danh sách user-agent từ file ua.txt
 user_agents = read_file("ua.txt")
